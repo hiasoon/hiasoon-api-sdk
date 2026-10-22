@@ -517,6 +517,18 @@ mvn install -DskipTests
 mvn deploy -DskipTests
 ```
 
+当前版本已发布至 Maven Central，可直接引用：
+
+```xml
+<dependency>
+    <groupId>com.hiasoon</groupId>
+    <artifactId>hiasoon-api-sdk</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+发布记录：https://repo1.maven.org/maven2/com/hiasoon/hiasoon-api-sdk/1.0.0/
+
 ## 注意事项
 
 1. **appSecret保密**：请勿将appSecret硬编码在代码中，建议通过配置文件或环境变量注入
